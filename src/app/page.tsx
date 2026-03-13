@@ -270,6 +270,12 @@ export default function LandingPage() {
           mediaAnimation="slide-up"
           mediaPosition="right"
           buttonText="Poslat poptávku"
+          onSubmit={(data) => {
+            const phoneNumber = '420774465891';
+            const message = `Jméno: ${data.name}\nTelefon: ${data.phone}\nModel vozidla: ${data.carModel}\nEmail: ${data.email || 'Není uvedeno'}\nZpráva: ${data.message || 'Není uvedena'}`;
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
+          }}
           containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-16 lg:py-24"
           titleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
           descriptionClassName="text-lg md:text-xl text-gray-700 mb-8"
