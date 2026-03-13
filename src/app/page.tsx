@@ -57,8 +57,8 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=lbt2m5", imageAlt: "Luxusní detail vozidla po čištění" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ja5lg", imageAlt: "Profesionální péče o vozidlo" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212013-stw5owws.jpg", imageAlt: "Luxusní detail vozidla po čištění" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-bkkjpym2.jpg", imageAlt: "Profesionální péče o vozidlo" }
           ]}
           mediaAnimation="slide-up"
           rating={5}
@@ -129,7 +129,7 @@ export default function LandingPage() {
           useInvertedBackground={true}
           features={[
             {
-              id: "feature-process",              title: "Promyšlené postupy",              description: "Každý krok je plánován s přesností. Od přípravy až po finální úpravu.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=s4bhaw&_wi=1", imageAlt: "Profesionální péče a postupy" },
+              id: "feature-process",              title: "Promyšlené postupy",              description: "Každý krok je plánován s přesností. Od přípravy až po finální úpravu.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-w1jj9haz.jpg", imageAlt: "Profesionální péče a postupy" },
               items: [
                 { icon: Zap, text: "Efektivní a rychlé řešení" },
                 { icon: Shield, text: "Ochrana bez kompromisů" }
@@ -137,7 +137,7 @@ export default function LandingPage() {
               reverse: false
             },
             {
-              id: "feature-products",              title: "Pouze špičkové produkty",              description: "Pracujeme s nejlepšími autokosmetickými produkty na trhu. Bez levných a škodlivých náhrad.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=v5a419", imageAlt: "Premium produkty pro péči o vozidla" },
+              id: "feature-products",              title: "Pouze špičkové produkty",              description: "Pracujeme s nejlepšími autokosmetickými produkty na trhu. Bez levných a škodlivých náhrad.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-0wii2j35.jpg", imageAlt: "Premium produkty pro péči o vozidla" },
               items: [
                 { icon: Award, text: "Certifikované značky" },
                 { icon: Sparkles, text: "Profesionální formule" }
@@ -265,7 +265,7 @@ export default function LandingPage() {
           ]}
           textarea={{ name: "message", placeholder: "Popište stav vašeho vozu a služby, které vás zajímají", rows: 5, required: false }}
           useInvertedBackground={true}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sqgz2f"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg"
           imageAlt="Umístění servisu v Praze"
           mediaAnimation="slide-up"
           mediaPosition="right"
