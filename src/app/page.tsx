@@ -95,7 +95,7 @@ export default function LandingPage() {
               id: "premium",              badge: "PREMIUM",              badgeIcon: Star,
               price: "od 4 390 Kč",              subtitle: "Hloubkové čištění s ochranou laku i interiéru",              buttons: [{ text: "Objednat", href: "tel:+420721611123" }],
               features: [
-                "Vše z STANDARD +",                "Detailnější čištění všech částí",                "Impregnace pneumatik (týdny výdrže)",                "Leštění detailerem s voskem/keramikou",                "Impregnace plastů interiéru",                "Tepování sedadel",                "Čištění a impregnace kůže",                "Hloubková péče o barvu",                "Profesionální ochrana",                "Předcházení znečištění",                "Zvýšená odolnost",                "⏱️ Trvání: 4 hodiny"
+                "Vše ze STANDARD +",                "Detailnější čištění všech částí",                "Impregnace pneumatik (týdny výdrže)",                "Leštění detailerem s voskem/keramikou",                "Impregnace plastů interiéru",                "Tepování sedadel",                "Čištění a impregnace kůže",                "Hloubková péče o barvu",                "Profesionální ochrana",                "Předcházení znečištění",                "Zvýšená odolnost",                "⏱️ Trvání: 4 hodiny"
               ]
             },
             {
