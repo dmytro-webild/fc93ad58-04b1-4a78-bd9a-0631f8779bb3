@@ -107,8 +107,8 @@ export default function LandingPage() {
             }
           ]}
           containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-16 lg:py-24"
-          titleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
-          descriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
+          textBoxTitleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
+          textBoxDescriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
           badgeClassName="text-sm font-bold uppercase tracking-wider"
           priceClassName="text-3xl md:text-4xl font-bold my-4"
           subtitleClassName="text-lg font-medium mb-6"
@@ -146,8 +146,8 @@ export default function LandingPage() {
             }
           ]}
           containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-16 lg:py-24"
-          titleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
-          descriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
+          textBoxTitleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
+          textBoxDescriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
           featureTitleClassName="text-2xl md:text-3xl font-bold mb-3"
         />
       </div>
@@ -184,8 +184,8 @@ export default function LandingPage() {
             }
           ]}
           containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-16 lg:py-24"
-          titleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
-          descriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
+          textBoxTitleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
+          textBoxDescriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
           cardClassName="p-6 rounded-xl border hover:shadow-lg transition-all"
           cardNameClassName="text-lg font-bold mt-4"
           cardPriceClassName="text-2xl font-bold text-primary mt-2"
@@ -248,8 +248,8 @@ export default function LandingPage() {
           speed={35}
           topMarqueeDirection="left"
           containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-16 lg:py-24"
-          titleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
-          descriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
+          textBoxTitleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
+          textBoxDescriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
         />
       </div>
 
