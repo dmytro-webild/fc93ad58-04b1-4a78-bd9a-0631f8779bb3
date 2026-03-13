@@ -114,7 +114,6 @@ export default function LandingPage() {
           subtitleClassName="text-lg font-medium mb-6"
           planButtonClassName="w-full py-3 px-6 rounded-full font-semibold transition-all"
           featuresClassName="space-y-3 text-sm"
-          featureItemClassName="flex items-start gap-3"
         />
       </div>
 
@@ -130,7 +129,7 @@ export default function LandingPage() {
           useInvertedBackground={true}
           features={[
             {
-              id: "feature-process",              title: "Promyšlené postupy",              description: "Každý krok je plánován s přesností. Od přípravy až po finální úpravu.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=s4bhaw&_wi=1", imageAlt: "Profesionální péče a postupy" },
+              id: "feature-process",              title: "Promyšlené postupy",              description: "Každý krok je plánován s přesností. Od přípravy až po finální úpravu.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=s4bhaw", imageAlt: "Profesionální péče a postupy" },
               items: [
                 { icon: Zap, text: "Efektivní a rychlé řešení" },
                 { icon: Shield, text: "Ochrana bez kompromisů" }
@@ -150,7 +149,6 @@ export default function LandingPage() {
           titleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
           descriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
           featureTitleClassName="text-2xl md:text-3xl font-bold mb-3"
-          featureDescriptionClassName="text-base md:text-lg leading-relaxed mb-6"
         />
       </div>
 
@@ -179,7 +177,7 @@ export default function LandingPage() {
               id: "addon-dirty",              name: "Extrémně znečištěný vůz",              price: "Individuální",              variant: "Ceník dle stavu",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=8y53yr",              imageAlt: "Obnova extrémně znečištěného vozu"
             },
             {
-              id: "addon-polish",              name: "Rozleštění lokálních vad laku",              price: "Individuální",              variant: "Dle potřeby",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=s4bhaw&_wi=2",              imageAlt: "Leštění a opravy laku"
+              id: "addon-polish",              name: "Rozleštění lokálních vad laku",              price: "Individuální",              variant: "Dle potřeby",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=s4bhaw",              imageAlt: "Leštění a opravy laku"
             },
             {
               id: "addon-leather",              name: "Tepování sedaček nebo čištění kůže",              price: "2 490 Kč",              variant: "Luxusní péče",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1pcbai",              imageAlt: "Péče o kožené sedačky"
@@ -191,7 +189,6 @@ export default function LandingPage() {
           cardClassName="p-6 rounded-xl border hover:shadow-lg transition-all"
           cardNameClassName="text-lg font-bold mt-4"
           cardPriceClassName="text-2xl font-bold text-primary mt-2"
-          cardVariantClassName="text-sm text-gray-600 mt-1"
         />
       </div>
 
@@ -230,10 +227,10 @@ export default function LandingPage() {
           animationType="slide-up"
           testimonials={[
             {
-              id: "testimonial-1",              name: "Václav Novotný",              handle: "BMW 530",              testimonial: "Byla to nejlepší investice do péče o mé auto. Vůz vypadá jako nový. Velmi profesionální přístup a kvalita služby je na nejvyšší úrovni.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u1fgi1&_wi=1",              imageAlt: "Václav Novotný",              icon: Star
+              id: "testimonial-1",              name: "Václav Novotný",              handle: "BMW 530",              testimonial: "Byla to nejlepší investice do péče o mé auto. Vůz vypadá jako nový. Velmi profesionální přístup a kvalita služby je na nejvyšší úrovni.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u1fgi1",              imageAlt: "Václav Novotný",              icon: Star
             },
             {
-              id: "testimonial-2",              name: "Petra Moravcová",              handle: "Mercedes-Benz C-Class",              testimonial: "Zbožňuji péči, kterou věnují mému autu. Nejen že auto vypadá luxusně, ale také vůz je chráněn jako nikdy předtím. Jejich přístup je opravdu osobní.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=suhech&_wi=1",              imageAlt: "Petra Moravcová",              icon: Star
+              id: "testimonial-2",              name: "Petra Moravcová",              handle: "Mercedes-Benz C-Class",              testimonial: "Zbožňuji péči, kterou věnují mému autu. Nejen že auto vypadá luxusně, ale také vůz je chráněn jako nikdy předtím. Jejich přístup je opravdu osobní.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=suhech",              imageAlt: "Petra Moravcová",              icon: Star
             },
             {
               id: "testimonial-3",              name: "Jiří Kučera",              handle: "Audi A6",              testimonial: "Poprvé jsem slyšel o detailingu na takto vysoké úrovni. Produkt je skvělý, a vyzvednutí vozidla zdarma v Praze je super. Sem určitě vrátím.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=tp6zmp",              imageAlt: "Jiří Kučera",              icon: Star
@@ -242,10 +239,10 @@ export default function LandingPage() {
               id: "testimonial-4",              name: "Lenka Dostálová",              handle: "Volkswagen Passat",              testimonial: "Naprosto profesionální služba. Obsah a kvalita péče na balíčku odpovídá ceně. Vůz je čistší a chráněnější než kdy předtím. Děkuji!",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rc4730",              imageAlt: "Lenka Dostálová",              icon: Star
             },
             {
-              id: "testimonial-5",              name: "Martin Svoboda",              handle: "Tesla Model 3",              testimonial: "Skvelý team a skvelá práca. Zákazník je v centru pozornosti. Svoj vůz som si dal spracovať po prvýkrát a od teraz to robím pravidelne.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u1fgi1&_wi=2",              imageAlt: "Martin Svoboda",              icon: Star
+              id: "testimonial-5",              name: "Martin Svoboda",              handle: "Tesla Model 3",              testimonial: "Skvelý team a skvelá práca. Zákazník je v centru pozornosti. Svoj vůz som si dal spracovať po prvýkrát a od teraz to robím pravidelne.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u1fgi1",              imageAlt: "Martin Svoboda",              icon: Star
             },
             {
-              id: "testimonial-6",              name: "Zuzana Kováčová",              handle: "Porsche 911",              testimonial: "Excelentní péče o luxusní auto. Nejdůležitější je, že se k autu zachází s maximální péčí a profesionalitou. Doporučuji každému, kdo chce to nejlepší.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=suhech&_wi=2",              imageAlt: "Zuzana Kováčová",              icon: Star
+              id: "testimonial-6",              name: "Zuzana Kováčová",              handle: "Porsche 911",              testimonial: "Excelentní péče o luxusní auto. Nejdůležitější je, že se k autu zachází s maximální péčí a profesionalitou. Doporučuji každému, kdo chce to nejlepší.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=suhech",              imageAlt: "Zuzana Kováčová",              icon: Star
             }
           ]}
           speed={35}
