@@ -74,7 +74,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="pricing-services" data-section="pricing-services" className="relative py-8 lg:py-16">
+      <div id="pricing-services" data-section="pricing-services" className="relative py-4 lg:py-8">
         <PricingCardTwo
           title="Naše služby"
           description="Tři úrovně péče o vaše vozidlo – od základního čištění až po komplexní renovaci a ochranu."
@@ -106,7 +106,7 @@ export default function LandingPage() {
               ]
             }
           ]}
-          containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-16 lg:py-24"
+          containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-8 lg:py-12"
           textBoxTitleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
           textBoxDescriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
           badgeClassName="text-sm font-bold uppercase tracking-wider"
