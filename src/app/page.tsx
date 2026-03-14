@@ -57,6 +57,7 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg", imageAlt: "Luxusní detailing vozidla" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg", imageAlt: "Luxusní detailing vozidla" }
           ]}
           mediaAnimation="slide-up"
