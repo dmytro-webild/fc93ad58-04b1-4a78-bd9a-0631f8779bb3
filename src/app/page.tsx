@@ -57,20 +57,20 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg?_wi=1", imageAlt: "Luxusní detailing vozidla" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg?_wi=2", imageAlt: "Luxusní detailing vozidla" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212013-stw5owws.jpg", imageAlt: "Luxusní detail vozidla po čištění" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-bkkjpym2.jpg", imageAlt: "Profesionální péče o vozidlo" }
           ]}
           mediaAnimation="slide-up"
           rating={5}
           ratingText="Objednávky pouze telefonicky – osobní přístup ke každému vozu"
           className="min-h-screen"
-          containerClassName="max-w-7xl mx-auto px-4 lg:px-8 flex flex-col items-center justify-center"
-          titleClassName="text-5xl md:text-6xl font-bold tracking-tight text-center"
-          descriptionClassName="text-lg md:text-xl leading-relaxed text-center"
+          containerClassName="max-w-7xl mx-auto px-4 lg:px-8"
+          titleClassName="text-5xl md:text-6xl font-bold tracking-tight"
+          descriptionClassName="text-lg md:text-xl leading-relaxed"
           tagClassName="inline-flex items-center gap-2 px-4 py-2 rounded-full"
-          buttonContainerClassName="flex flex-col sm:flex-row gap-4 justify-center"
+          buttonContainerClassName="flex flex-col sm:flex-row gap-4"
           buttonClassName="px-8 py-4 rounded-full font-semibold transition-all"
-          mediaWrapperClassName="grid grid-cols-1 gap-4"
+          mediaWrapperClassName="grid grid-cols-2 gap-4"
         />
       </div>
 
@@ -128,14 +128,7 @@ export default function LandingPage() {
           animationType="slide-up"
           useInvertedBackground={true}
           features={[
-            {
-              id: "feature-process",              title: "Promyšlené postupy",              description: "Každý krok je plánován s přesností. Od přípravy až po finální úpravu.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-w1jj9haz.jpg", imageAlt: "Profesionální péče a postupy" },
-              items: [
-                { icon: Zap, text: "Efektivní a rychlé řešení" },
-                { icon: Shield, text: "Ochrana bez kompromisů" }
-              ],
-              reverse: false
-            },
+
             {
               id: "feature-products",              title: "Pouze špičkové produkty",              description: "Pracujeme s nejlepšími autokosmetickými produkty na trhu. Bez levných a škodlivých náhrad.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-0wii2j35.jpg", imageAlt: "Premium produkty pro péči o vozidla" },
               items: [
@@ -265,7 +258,7 @@ export default function LandingPage() {
           ]}
           textarea={{ name: "message", placeholder: "Popište stav vašeho vozu a služby, které vás zajímají", rows: 5, required: false }}
           useInvertedBackground={true}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg?_wi=3"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg"
           imageAlt="Umístění servisu v Praze"
           mediaAnimation="slide-up"
           mediaPosition="right"
