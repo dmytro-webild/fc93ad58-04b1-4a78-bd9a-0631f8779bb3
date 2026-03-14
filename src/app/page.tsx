@@ -43,7 +43,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="hero" data-section="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+      <div id="hero" data-section="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 -mb-20 lg:-mb-32">
         <HeroSplitDualMedia
           title="Péče o vůz na úrovni, kterou běžné myčky neznají"
           description="Nepoužíváme kompromisy. Pouze špičkové produkty, promyšlené postupy a maximální pečlivost. Vaše auto zaslouží prémiovou péči."
@@ -57,8 +57,8 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212013-stw5owws.jpg", imageAlt: "Luxusní detail vozidla po čištění" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-bkkjpym2.jpg", imageAlt: "Profesionální péče o vozidlo" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=lbt2m5", imageAlt: "Luxusní detail vozidla po čištění" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6ja5lg", imageAlt: "Profesionální péče o vozidlo" }
           ]}
           mediaAnimation="slide-up"
           rating={5}
@@ -74,7 +74,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="pricing-services" data-section="pricing-services" className="relative py-20 lg:py-32">
+      <div id="pricing-services" data-section="pricing-services" className="relative py-0 lg:py-0">
         <PricingCardTwo
           title="Naše služby"
           description="Tři úrovně péče o vaše vozidlo – od základního čištění až po komplexní renovaci a ochranu."
@@ -117,7 +117,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="features-detail" data-section="features-detail" className="relative py-20 lg:py-32">
+      <div id="features-detail" data-section="features-detail" className="relative py-0 lg:py-0">
         <FeatureCardTen
           title="Co dělá naši službu speciální"
           description="Nezáleží nám jen na mytí. Jde nám o transformaci a dlouhodobou ochranu vašeho vozidla."
@@ -129,7 +129,7 @@ export default function LandingPage() {
           useInvertedBackground={true}
           features={[
             {
-              id: "feature-process",              title: "Promyšlené postupy",              description: "Každý krok je plánován s přesností. Od přípravy až po finální úpravu.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-w1jj9haz.jpg", imageAlt: "Profesionální péče a postupy" },
+              id: "feature-process",              title: "Promyšlené postupy",              description: "Každý krok je plánován s přesností. Od přípravy až po finální úpravu.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=s4bhaw&_wi=1", imageAlt: "Profesionální péče a postupy" },
               items: [
                 { icon: Zap, text: "Efektivní a rychlé řešení" },
                 { icon: Shield, text: "Ochrana bez kompromisů" }
@@ -137,7 +137,7 @@ export default function LandingPage() {
               reverse: false
             },
             {
-              id: "feature-products",              title: "Pouze špičkové produkty",              description: "Pracujeme s nejlepšími autokosmetickými produkty na trhu. Bez levných a škodlivých náhrad.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-0wii2j35.jpg", imageAlt: "Premium produkty pro péči o vozidla" },
+              id: "feature-products",              title: "Pouze špičkové produkty",              description: "Pracujeme s nejlepšími autokosmetickými produkty na trhu. Bez levných a škodlivých náhrad.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=v5a419", imageAlt: "Premium produkty pro péči o vozidla" },
               items: [
                 { icon: Award, text: "Certifikované značky" },
                 { icon: Sparkles, text: "Profesionální formule" }
@@ -152,7 +152,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="products-addons" data-section="products-addons" className="relative py-20 lg:py-32">
+      <div id="products-addons" data-section="products-addons" className="relative py-0 lg:py-0">
         <ProductCardFour
           title="Doplňkové služby"
           description="Rozšiřte péči o váš vůz našimi speciálními doplňkovými službami."
@@ -192,7 +192,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="benefits-metric" data-section="benefits-metric" className="relative py-20 lg:py-32">
+      <div id="benefits-metric" data-section="benefits-metric" className="relative py-0 lg:py-0">
         <MetricCardFourteen
           title="Výhody naší péče"
           tag="Proč nás zvolit"
@@ -215,7 +215,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="testimonials" data-section="testimonials" className="relative py-20 lg:py-32">
+      <div id="testimonials" data-section="testimonials" className="relative py-0 lg:py-0">
         <TestimonialCardSix
           title="Co říkají naši zákazníci"
           description="Spokojenost našich klientů je naší nejlepší referencí."
@@ -253,7 +253,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="contact" data-section="contact" className="relative py-20 lg:py-32">
+      <div id="contact" data-section="contact" className="relative py-0 lg:py-0">
         <ContactSplitForm
           title="Zarezervujte si čištění vozidla"
           description="Objednávky přijímáme telefonicky. Náš tým vám poskytne detailní informace a najde pro vás ideální řešení."
@@ -265,7 +265,7 @@ export default function LandingPage() {
           ]}
           textarea={{ name: "message", placeholder: "Popište stav vašeho vozu a služby, které vás zajímají", rows: 5, required: false }}
           useInvertedBackground={true}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sqgz2f"
           imageAlt="Umístění servisu v Praze"
           mediaAnimation="slide-up"
           mediaPosition="right"
