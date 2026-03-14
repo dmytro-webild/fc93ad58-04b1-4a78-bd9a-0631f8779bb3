@@ -7,7 +7,6 @@ import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
-import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import { Sparkles, Award, Star, CheckCircle, Zap, Shield } from 'lucide-react';
@@ -128,7 +127,6 @@ export default function LandingPage() {
           animationType="slide-up"
           useInvertedBackground={true}
           features={[
-
             {
               id: "feature-products",              title: "Pouze špičkové produkty",              description: "Pracujeme s nejlepšími autokosmetickými produkty na trhu. Bez levných a škodlivých náhrad.",              media: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-0wii2j35.jpg", imageAlt: "Premium produkty pro péči o vozidla" },
               items: [
@@ -208,44 +206,6 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="testimonials" data-section="testimonials" className="relative py-20 lg:py-32">
-        <TestimonialCardSix
-          title="Co říkají naši zákazníci"
-          description="Spokojenost našich klientů je naší nejlepší referencí."
-          tag="Recenze"
-          tagIcon={Star}
-          tagAnimation="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={true}
-          animationType="slide-up"
-          testimonials={[
-            {
-              id: "testimonial-1",              name: "Václav Novotný",              handle: "BMW 530",              testimonial: "Byla to nejlepší investice do péče o mé auto. Vůz vypadá jako nový. Velmi profesionální přístup a kvalita služby je na nejvyšší úrovni.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u1fgi1&_wi=1",              imageAlt: "Václav Novotný",              icon: Star
-            },
-            {
-              id: "testimonial-2",              name: "Petra Moravcová",              handle: "Mercedes-Benz C-Class",              testimonial: "Zbožňuji péči, kterou věnují mému autu. Nejen že auto vypadá luxusně, ale také vůz je chráněn jako nikdy předtím. Jejich přístup je opravdu osobní.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=suhech&_wi=1",              imageAlt: "Petra Moravcová",              icon: Star
-            },
-            {
-              id: "testimonial-3",              name: "Jiří Kučera",              handle: "Audi A6",              testimonial: "Poprvé jsem slyšel o detailingu na takto vysoké úrovni. Produkt je skvělý, a vyzvednutí vozidla zdarma v Praze je super. Sem určitě vrátím.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=tp6zmp",              imageAlt: "Jiří Kučera",              icon: Star
-            },
-            {
-              id: "testimonial-4",              name: "Lenka Dostálová",              handle: "Volkswagen Passat",              testimonial: "Naprosto profesionální služba. Obsah a kvalita péče na balíčku odpovídá ceně. Vůz je čistší a chráněnější než kdy předtím. Děkuji!",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rc4730",              imageAlt: "Lenka Dostálová",              icon: Star
-            },
-            {
-              id: "testimonial-5",              name: "Martin Svoboda",              handle: "Tesla Model 3",              testimonial: "Skvelý team a skvelá práca. Zákazník je v centru pozornosti. Svoj vůz som si dal spracovať po prvýkrát a od teraz to robím pravidelne.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=u1fgi1&_wi=2",              imageAlt: "Martin Svoboda",              icon: Star
-            },
-            {
-              id: "testimonial-6",              name: "Zuzana Kováčová",              handle: "Porsche 911",              testimonial: "Excelentní péče o luxusní auto. Nejdůležitější je, že se k autu zachází s maximální péčí a profesionalitou. Doporučuji každému, kdo chce to nejlepší.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=suhech&_wi=2",              imageAlt: "Zuzana Kováčová",              icon: Star
-            }
-          ]}
-          speed={35}
-          topMarqueeDirection="left"
-          containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-16 lg:py-24"
-          textBoxTitleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-4"
-          textBoxDescriptionClassName="text-lg md:text-xl text-gray-700 mb-12"
-        />
-      </div>
-
       <div id="contact" data-section="contact" className="relative py-20 lg:py-32">
         <ContactSplitForm
           title="Zarezervujte si čištění vozidla"
@@ -301,7 +261,7 @@ export default function LandingPage() {
                 { label: "O nás", href: "#" },
                 { label: "Naše procesy", href: "#services" },
                 { label: "Výhody", href: "#benefits" },
-                { label: "Pojmenované reference", href: "#testimonials" }
+                { label: "Pojmenované reference", href: "#contact" }
               ]
             },
             {
