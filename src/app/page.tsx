@@ -57,20 +57,19 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212013-stw5owws.jpg", imageAlt: "Luxusní detail vozidla po čištění" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-bkkjpym2.jpg", imageAlt: "Profesionální péče o vozidlo" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg", imageAlt: "Luxusní detailing vozidla" }
           ]}
           mediaAnimation="slide-up"
           rating={5}
           ratingText="Objednávky pouze telefonicky – osobní přístup ke každému vozu"
           className="min-h-screen"
-          containerClassName="max-w-7xl mx-auto px-4 lg:px-8"
-          titleClassName="text-5xl md:text-6xl font-bold tracking-tight"
-          descriptionClassName="text-lg md:text-xl leading-relaxed"
+          containerClassName="max-w-7xl mx-auto px-4 lg:px-8 flex flex-col items-center justify-center"
+          titleClassName="text-5xl md:text-6xl font-bold tracking-tight text-center"
+          descriptionClassName="text-lg md:text-xl leading-relaxed text-center"
           tagClassName="inline-flex items-center gap-2 px-4 py-2 rounded-full"
-          buttonContainerClassName="flex flex-col sm:flex-row gap-4"
+          buttonContainerClassName="flex flex-col sm:flex-row gap-4 justify-center"
           buttonClassName="px-8 py-4 rounded-full font-semibold transition-all"
-          mediaWrapperClassName="grid grid-cols-2 gap-4"
+          mediaWrapperClassName="grid grid-cols-1 gap-4"
         />
       </div>
 
