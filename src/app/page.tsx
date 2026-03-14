@@ -28,7 +28,7 @@ export default function LandingPage() {
         <NavbarLayoutFloatingInline
           brandName="Čištění vozidel Praha"
           navItems={[
-            { name: "Služby", id: "services" },
+            { name: "Služby", id: "pricing-services" },
             { name: "Kontakt", id: "contact" }
           ]}
           button={{ text: "📞 Zavolat", href: "tel:+420721611123" }}
@@ -50,7 +50,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           buttons={[
             { text: "📞 Zavolat a objednat", href: "tel:+420721611123" },
-            { text: "📍 Zobrazit služby", href: "#services" }
+            { text: "📍 Zobrazit služby", href: "#pricing-services" }
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
@@ -217,10 +217,10 @@ export default function LandingPage() {
           columns={[
             {
               title: "Služby",              items: [
-                { label: "STANDARD balíček", href: "#services" },
-                { label: "PREMIUM balíček", href: "#services" },
-                { label: "VIP balíček", href: "#services" },
-                { label: "Doplňkové služby", href: "#addons" }
+                { label: "STANDARD balíček", href: "#pricing-services" },
+                { label: "PREMIUM balíček", href: "#pricing-services" },
+                { label: "VIP balíček", href: "#pricing-services" },
+                { label: "Doplňkové služby", href: "#products-addons" }
               ]
             },
             {
@@ -234,7 +234,7 @@ export default function LandingPage() {
             {
               title: "Informace",              items: [
                 { label: "O nás", href: "#" },
-                { label: "Naše procesy", href: "#services" },
+                { label: "Naše procesy", href: "#pricing-services" },
                 { label: "Pojmenované reference", href: "#contact" }
               ]
             },
