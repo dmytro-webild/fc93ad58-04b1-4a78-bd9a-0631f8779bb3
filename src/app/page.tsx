@@ -57,8 +57,8 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg", imageAlt: "Luxusní detailing vozidla" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg", imageAlt: "Luxusní detailing vozidla" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg?_wi=1", imageAlt: "Luxusní detailing vozidla" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg?_wi=2", imageAlt: "Luxusní detailing vozidla" }
           ]}
           mediaAnimation="slide-up"
           rating={5}
@@ -265,7 +265,7 @@ export default function LandingPage() {
           ]}
           textarea={{ name: "message", placeholder: "Popište stav vašeho vozu a služby, které vás zajímají", rows: 5, required: false }}
           useInvertedBackground={true}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AiJU1e2jhOFKhLWY9tVwfVdNYC/uploaded-1773429212014-y62k1q4q.jpg?_wi=3"
           imageAlt="Umístění servisu v Praze"
           mediaAnimation="slide-up"
           mediaPosition="right"
