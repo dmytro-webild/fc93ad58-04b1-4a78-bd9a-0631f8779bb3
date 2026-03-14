@@ -74,7 +74,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="pricing-services" data-section="pricing-services" className="relative py-20 lg:py-32">
+      <div id="pricing-services" data-section="pricing-services" className="relative py-8 lg:py-16">
         <PricingCardTwo
           title="Naše služby"
           description="Tři úrovně péče o vaše vozidlo – od základního čištění až po komplexní renovaci a ochranu."
