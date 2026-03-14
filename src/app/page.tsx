@@ -43,7 +43,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="hero" data-section="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+      <div id="hero" data-section="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-8">
         <HeroSplitDualMedia
           title="Péče o vůz na úrovni, kterou běžné myčky neznají"
           description="Nepoužíváme kompromisy. Pouze špičkové produkty, promyšlené postupy a maximální pečlivost. Vaše auto zaslouží prémiovou péči."
@@ -63,8 +63,8 @@ export default function LandingPage() {
           mediaAnimation="slide-up"
           rating={5}
           ratingText="Objednávky pouze telefonicky – osobní přístup ke každému vozu"
-          className="min-h-screen"
-          containerClassName="max-w-7xl mx-auto px-4 lg:px-8"
+          className="min-h-screen pb-0"
+          containerClassName="max-w-7xl mx-auto px-4 lg:px-8 pb-0"
           titleClassName="text-5xl md:text-6xl font-bold tracking-tight"
           descriptionClassName="text-lg md:text-xl leading-relaxed"
           tagClassName="inline-flex items-center gap-2 px-4 py-2 rounded-full"
