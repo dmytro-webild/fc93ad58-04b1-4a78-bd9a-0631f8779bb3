@@ -6,7 +6,6 @@ import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
 import FeatureCardTen from '@/components/sections/feature/FeatureCardTen';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import { Sparkles, Award, Star, CheckCircle, Zap, Shield } from 'lucide-react';
@@ -30,7 +29,6 @@ export default function LandingPage() {
           brandName="Čištění vozidel Praha"
           navItems={[
             { name: "Služby", id: "services" },
-            { name: "Výhody", id: "benefits" },
             { name: "Kontakt", id: "contact" }
           ]}
           button={{ text: "📞 Zavolat", href: "tel:+420721611123" }}
@@ -183,29 +181,6 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="benefits-metric" data-section="benefits-metric" className="relative py-20 lg:py-32">
-        <MetricCardFourteen
-          title="Výhody naší péče"
-          tag="Proč nás zvolit"
-          tagAnimation="slide-up"
-          metrics={[
-            { id: "precision", value: "100%", description: "Precizní ruční čištění" },
-            { id: "products", value: "Premium", description: "Špičková autokosmetika" },
-            { id: "detail", value: "Max.", description: "Detailní práce" },
-            { id: "approach", value: "Osobní", description: "Přístup ke každému vozu" },
-            { id: "pickup", value: "Zdarma", description: "Vyzvednutí v Praze" }
-          ]}
-          metricsAnimation="slide-up"
-          useInvertedBackground={false}
-          containerClassName="max-w-7xl mx-auto px-4 lg:px-8 py-16 lg:py-24"
-          titleClassName="text-4xl md:text-5xl font-bold tracking-tight mb-12"
-          metricsContainerClassName="grid grid-cols-2 md:grid-cols-5 gap-6"
-          metricClassName="text-center p-6 rounded-lg"
-          valueClassName="text-3xl md:text-4xl font-bold mb-2"
-          descriptionClassName="text-sm md:text-base"
-        />
-      </div>
-
       <div id="contact" data-section="contact" className="relative py-20 lg:py-32">
         <ContactSplitForm
           title="Zarezervujte si čištění vozidla"
@@ -260,7 +235,6 @@ export default function LandingPage() {
               title: "Informace",              items: [
                 { label: "O nás", href: "#" },
                 { label: "Naše procesy", href: "#services" },
-                { label: "Výhody", href: "#benefits" },
                 { label: "Pojmenované reference", href: "#contact" }
               ]
             },
